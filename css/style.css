@@ -370,4 +370,111 @@ body{
     width: 360px;
     padding: 32px 65px;
     border-left: 2px solid #F6F7FA;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
+.content .rightbar .account{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.content .rightbar .account i{
+    align-items: center;
+    margin-right: 30px;
+    display: flex;
+    justify-content: right;
+    font-size: 25px;
+    position: relative;
+}
+.content .rightbar .account img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.content .rightbar .rightbar-container .rightbar-title h4{
+    font-size: 20px;
+    color: #0e1b42;
+    font-weight: 500;
+}
+
+.content .rightbar .rightbar-container .rightbar-title{
+    display: flex;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #F6F7FA;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    margin-bottom: 35px;
+}
+.content .rightbar .rightbar-container .rightbar-title::before {
+    content: '';
+    width: 38px;
+    height: 4px;
+    background: #c4e2e6;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+.content .rightbar .rightbar-footer{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 200px;
+    border: 1px solid #c2cab7;
+    border-radius: 10px;
+}
+.content .rightbar .rightbar-footer .rightbar-footer-box .footerbox-news img{
+    width: 100px;
+    height: 100px;
+}
+.content .rightbar .rightbar-footer .rightbar-footer-box{
+    display: flex;
+    justify-content: space-between;
+}
+.content .rightbar .rightbar-footer .rightbar-footer-box i{
+    margin-right: 4px;
+    margin-top: 4px;
+    color: rgba(0, 0, 0, .3);
+} 
+.content .rightbar .rightbar-footer .rightbar-footer-box i:hover{
+    color:black;
+} 
+.content .rightbar .rightbar-footer .rightbar-footer-box .footerbox-news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left:50px;
+}
+.content .rightbar .rightbar-footer .rightbar-footer-box .footerbox-news .footerbox-title{
+   font-size: 15px;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+.content .rightbar .rightbar-footer .rightbar-footer-box .footerbox-news .footerbox-bill{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, .8);
+    margin-bottom: 10px;
+ }
+.content .rightbar .rightbar-container .activities ul{
+    list-style-type: square;
+    height: 30px;
+
+}
+.content .rightbar .rightbar-container .activities ul li{
+    margin-bottom: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+
+
+
