@@ -401,6 +401,10 @@ body{
     font-weight: 500;
 }
 
+.content .rightbar .rightbar-container{
+    margin-bottom: 60px;
+}
+
 .content .rightbar .rightbar-container .rightbar-title{
     display: flex;
     padding-bottom: 6px;
@@ -427,6 +431,7 @@ body{
     height: 200px;
     border: 1px solid #c2cab7;
     border-radius: 10px;
+    margin-top:100px ;
 }
 .content .rightbar .rightbar-footer .rightbar-footer-box .footerbox-news img{
     width: 100px;
